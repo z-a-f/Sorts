@@ -30,7 +30,7 @@ void Utils<T>::printArray(T ar[], size_t len) {
   for (size_t i = 0; i < len; i++) {
     std::cout << ar[i] << ' ';
   }
-  std::cout << "]\n";
+  std::cout << "]";
 }
 
 #endif

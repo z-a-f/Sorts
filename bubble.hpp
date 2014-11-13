@@ -1,3 +1,6 @@
+#ifndef BUBBLE_HPP
+#define BUBBLE_HPP
+
 #include "utils.hpp"
 
 template <typename T>
@@ -34,3 +37,5 @@ size_t bubbleSort2(T ar[], size_t len) {
   } while (swapped);
   return comparisons;
 }
+
+#endif
